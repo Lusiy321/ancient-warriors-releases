@@ -6,8 +6,13 @@ This public repository holds the builds of **Ancient Warriors: Order of the Seal
 cannot be downloaded from a private repository by anybody but its owner — that is why
 this one exists.
 
-- **The tree is a README and nothing more.** Builds are 100+ MB and never go into git
-  (GitHub refuses files over 100 MB anyway); they are release assets.
+- **The tree is the README, this file and two git settings — nothing more.** Builds are
+  100+ MB and never go into git (GitHub refuses a file over 100 MB, and a smaller one
+  stays in the history for good); they are release assets, attached on github.com —
+  GitHub Desktop cannot make a release. `.gitignore` keeps `*.zip`, `*.apk`, the split
+  parts (`*.zip.*`) and `.DS_Store` out of a commit, which Desktop would otherwise offer.
+  A 77 MB zip committed by hand was taken out of the history with a force push on
+  13 October 2026, before the first release tag pointed into it — the only cheap moment.
 - **Every release is `vX.Y.Z`** (the game's `application/config/version` with a `v`) and
   carries files under **fixed names**: `ancient-warriors-windows.zip` (the .exe, the .pck
   and the SQLite DLL of a release export) and `ancient-warriors.apk` (the signed universal

@@ -1,0 +1,13 @@
+# Builds are release assets, never files in this repository: git refuses a file over
+# 100 MB, and a smaller one stays in the history for good. Attach them to a release on
+# github.com instead (Releases → Draft a new release → Attach binaries).
+*.zip
+*.zip.*
+*.apk
+*.aab
+*.exe
+*.pck
+*.dll
+
+# macOS Finder
+.DS_Store
