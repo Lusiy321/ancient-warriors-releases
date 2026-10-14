@@ -1,7 +1,7 @@
 # Ancient Warriors: Order of the Seal — сборки игры
 
 Здесь лежат готовые сборки одиночной ролевой игры **Ancient Warriors: Order of the Seal**.
-Скачивать удобнее со страницы игры: **[Скачать игру](https://acient-warriors-web.vercel.app/ru/download/)**.
+Скачивать удобнее со страницы игры: **[Скачать игру](https://www.ancient-warriors.com/ru/download/)**.
 Там же системные требования, политика конфиденциальности и условия использования.
 
 Каждая версия — отдельный [релиз](https://github.com/Lusiy321/ancient-warriors-releases/releases):
@@ -50,7 +50,7 @@ sha256sum ancient-warriors-windows.zip                   # Linux
 # Ancient Warriors: Order of the Seal — game builds
 
 The builds of the single-player RPG **Ancient Warriors: Order of the Seal**. The easiest
-place to get them is the game's page: **[Download the game](https://acient-warriors-web.vercel.app/en/download/)**,
+place to get them is the game's page: **[Download the game](https://www.ancient-warriors.com/en/download/)**,
 with the system requirements, the privacy policy and the terms of use.
 
 | File | What it is |
